@@ -1,17 +1,17 @@
 # Conway's Game of Life ✨
 
-![Demo](Images/gameOfLife.gif)
-
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/Toms343/CS106A-Assignments)
 [![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/Toms343/CS106A-Assignments/blob/main/LICENSE)
 
+![Demo](Images/gameOfLife.gif)
+
 ## Table of Contents 📜
 
-- [Introduction](#introductioon)
-- [Rules](#rules)
-- [Features](#features)
-- [Contributing](#contributing)
-- [Contact](#contact)
+- [Introduction](#Introductioon)
+- [Rules](#Rules)
+- [Features](#Features)
+- [Contributing](#Contributing)
+- [Contact](#Contact)
 
 ## Introduction 🗨️
 
@@ -27,6 +27,7 @@ The Conway's Game of Life, also known simple as Life, is a cellular automaton de
 ## Features ⏳
 
 - [ ] Basic implementation of Conway's Game of Life.
+
 
 Upcoming Features in the Next Update:
 - [ ] Color options for cells.
