@@ -7,11 +7,11 @@
 
 ## Table of Contents 📜
 
-- [Introduction](#Introductioon)
-- [Rules](#Rules)
-- [Features](#Features)
-- [Contributing](#Contributing)
-- [Contact](#Contact)
+- [Introduction](#introductioon-)
+- [Rules](#rules-)
+- [Features](#features-)
+- [Contributing](#contributing-)
+- [Contact](#contact-)
 
 ## Introduction 🗨️
 
