@@ -11,19 +11,9 @@ public class CellPanel extends JPanel {
     private static int size;
     private boolean gridEnabled;
 
-
-    private void changeCellState(int i, int j){
-        grid[i][j] = !grid[i][j];
-    }
-
-    public void enableGrid(){
-        gridEnabled = true;
-    }
-
-    public void disableGrid(){
-        gridEnabled = false;
-    }
-
+    /** Constructor determines size of JPanel according to received arguments
+     * and adds mouse listener to that panel (click on cell changes it's state)
+     */
     public CellPanel(boolean[][] grid, int row, int col, int size){
 
         this.grid = grid;
@@ -50,6 +40,23 @@ public class CellPanel extends JPanel {
             }
         });
     }
+
+    private void changeCellState(int i, int j){
+        grid[i][j] = !grid[i][j];
+    }
+
+    /** function enables editing of grid
+     */
+    public void enableGrid(){
+        gridEnabled = true;
+    }
+
+    /** function disables editing of grid
+     */
+    public void disableGrid(){
+        gridEnabled = false;
+    }
+
 
     @Override
     protected void paintComponent(Graphics g) {
