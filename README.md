@@ -1,7 +1,7 @@
 # Conway's Game of Life ✨
 
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/Toms343/CS106A-Assignments)
-[![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/Toms343/CS106A-Assignments/blob/main/LICENSE)
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/Toms343/Conway-Life-Game)
+[![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/Toms343/Conway-Life-Game/blob/main/LICENSE)
 
 ![Demo](Images/gameOfLife.gif)
 
