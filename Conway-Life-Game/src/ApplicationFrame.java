@@ -21,7 +21,7 @@ public class ApplicationFrame extends JFrame {
 
         // Adding few panels on screen
         view = new CellPanel(grid, row, col, size);
-        add(view, BorderLayout.NORTH);
+        add(view, BorderLayout.CENTER);
         addButtons(grid, cells);
 
         // Options for frame, just ignore

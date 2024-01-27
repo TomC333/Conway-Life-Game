@@ -2,10 +2,10 @@ import java.util.concurrent.CyclicBarrier;
 
 public class CellThread implements Runnable{
 
-    private CyclicBarrier cyclicBarrier;
-    private boolean[][] grid;
-    private int i;
-    private int j;
+    private final CyclicBarrier cyclicBarrier;
+    private final boolean[][] grid;
+    private final int i;
+    private final int j;
 
     public CellThread(boolean[][] grid, int i, int j, CyclicBarrier cyclicBarrier){
         this.grid = grid;

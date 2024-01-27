@@ -65,11 +65,11 @@ public class CellPanel extends JPanel {
         for(int i = 0; i < row; i++){
             for(int j = 0; j < col; j++){
 
-                int x = i * size;
-                int y = j * size;
+                int y = i * size;
+                int x = j * size;
 
                 // Setting colors of each cell according "grid"
-                g.setColor(grid[i][j] ? Color.BLUE : Color.BLACK);
+                g.setColor(grid[i][j] ? Color.YELLOW : Color.BLACK);
                 g.fillRect(x, y, size, size);
 
                 // Creating "outline effect" for each cell
