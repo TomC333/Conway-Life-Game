@@ -5,7 +5,7 @@ import java.awt.event.MouseEvent;
 
 public class CellPanel extends JPanel {
 
-    private final boolean[][] grid;
+    private boolean[][] grid;
     private static int row;
     private static int col;
     private static int size;
@@ -33,8 +33,8 @@ public class CellPanel extends JPanel {
                 if(!gridEnabled) return;
 
                 // Finding on which cell user pressed
-                int row = e.getX() / size;
-                int col = e.getY() / size;
+                int row = e.getY() / size;
+                int col = e.getX() / size;
                 changeCellState(row, col);
                 repaint();
             }

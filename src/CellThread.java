@@ -2,8 +2,8 @@ import java.util.concurrent.CyclicBarrier;
 
 public class CellThread implements Runnable{
 
-    private final CyclicBarrier cyclicBarrier;
-    private final boolean[][] grid;
+    private CyclicBarrier cyclicBarrier;
+    private boolean[][] grid;
     private final int i;
     private final int j;
 
@@ -33,7 +33,7 @@ public class CellThread implements Runnable{
         boolean nextState = grid[i][j];
 
         // Using rules of conways game to determine nextState of cell
-        if(grid[i][j]){
+        if(nextState){
             if(aliveCount < 2 || aliveCount > 3) nextState = false;
         }else if(aliveCount == 3) nextState = true;
 
@@ -49,6 +49,7 @@ public class CellThread implements Runnable{
 
             try{
                 cyclicBarrier.await();
+                Thread.sleep(1000);
             }catch (Exception e){ break; }
 
             grid[i][j] = nextState;

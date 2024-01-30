@@ -9,6 +9,8 @@ public class ApplicationFrame extends JFrame {
     private final CellPanel view;
     private final Random rand = new Random();
 
+    private CyclicBarrier barier;
+
 
     public ApplicationFrame(boolean[][] grid, Thread[][] cells, int row, int col, int size){
 
@@ -21,7 +23,7 @@ public class ApplicationFrame extends JFrame {
 
         // Adding few panels on screen
         view = new CellPanel(grid, row, col, size);
-        add(view, BorderLayout.CENTER);
+        add(view, BorderLayout.NORTH);
         addButtons(grid, cells);
 
         // Options for frame, just ignore
@@ -53,12 +55,12 @@ public class ApplicationFrame extends JFrame {
             randomize.setEnabled(false);
             view.disableGrid();
 
-            CyclicBarrier cyclicBarrier = new CyclicBarrier(cells.length * cells[0].length, this::repaint);
+            this.barier = new CyclicBarrier(cells.length * cells[0].length, this::repaint);
 
             // Creating and start new Threads for each cell
             for(int i = 0; i < cells.length; i++){
                 for(int j = 0; j < cells[0].length; j++){
-                    cells[i][j] = new Thread(new CellThread(grid, i, j, cyclicBarrier));
+                    cells[i][j] = new Thread(new CellThread(grid, i, j, this.barier));
                     cells[i][j].start();
                 }
             }
