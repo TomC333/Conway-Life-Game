@@ -49,10 +49,13 @@ public class CellThread implements Runnable{
 
             try{
                 cyclicBarrier.await();
-                Thread.sleep(1000);
             }catch (Exception e){ break; }
 
             grid[i][j] = nextState;
+
+            try{
+                cyclicBarrier.await();
+            }catch (Exception e){ break; }
         }
     }
 }
