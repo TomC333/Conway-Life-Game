@@ -3,7 +3,7 @@
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/Toms343/Conway-Life-Game)
 [![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/Toms343/Conway-Life-Game/blob/main/LICENSE)
 
-![Demo](https://github.com/Toms343/Conway-Life-Game/blob/main/Images/gameOfLife.gif)
+![Demo](https://github.com/TomC333/Conway-Life-Game/blob/main/Images/gameOfLife.gif)
 
 ## Table of Contents 📜
 
