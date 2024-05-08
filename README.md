@@ -29,12 +29,6 @@ The Conway's Game of Life, also known simple as Life, is a cellular automaton de
 - [ ] Basic implementation of Conway's Game of Life.
 
 
-Upcoming Features in the Next Update:
-- [ ] Color options for cells.
-- [ ] Adjustable cell size from GUI.
-- [ ] Infinite grid support.
-
-
 ## Contributing 🤝
 Contributions are welcome! If you would like to contribute to this project, please follow these steps:
 
