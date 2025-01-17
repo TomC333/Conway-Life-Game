@@ -3,19 +3,11 @@
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/Toms343/Conway-Life-Game)
 [![License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/Toms343/Conway-Life-Game/blob/main/LICENSE)
 
-![Demo](https://github.com/TomC333/Conway-Life-Game/blob/main/Images/gameOfLife.gif)
+## Background 🤯
 
-## Table of Contents 📜
-
-- [Introduction](#introductioon-)
-- [Rules](#rules-)
-- [Features](#features-)
-- [Contributing](#contributing-)
-- [Contact](#contact-)
-
-## Introduction 🗨️
-
-The Conway's Game of Life, also known simple as Life, is a cellular automaton devised by the British mathematician John Horton Conway in 1970. It is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input.
+I first heard about Conway's *Game of Life* during my university studies. This game, with its simple yet profound rules, amazed me—it’s incredible what such simplicity can achieve, 
+much like in real life! 🌱 For a few days, I enjoyed exploring web-based versions, such as [this one](https://playgameoflife.com/). 
+Eventually, I decided to take it a step further and create my own version. 😄 
 
 ## Rules 📜
 
@@ -24,28 +16,6 @@ The Conway's Game of Life, also known simple as Life, is a cellular automaton de
 3. Any live cell with more than three live neighbors dies, as if by overpopulation.
 4. Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.
 
-## Features ⏳
+## Demo 🚀
 
-- [ ] Basic implementation of Conway's Game of Life.
-
-
-## Contributing 🤝
-Contributions are welcome! If you would like to contribute to this project, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature/your-feature-name`
-3. Commit your changes: `git commit -m "Add your feature"`
-4. Push to the branch: `git push origin feature/your-feature-name`
-5. Open a pull request on the [GitHub repository](https://github.com/Toms343/Conway-Life-Game)
-
-Please ensure that your contributions adhere to the following guidelines:
-- Maintain a clear and concise coding style.
-- Document any significant changes or additions.
-
-Thank you for your contributions! 🙌
-
-## Contact 📧
-
-For any questions or feedback, feel free to reach out:
-- Email: d.dadiani343@gmail.com
-- LinkedIn: [David Dadiani](https://www.linkedin.com/in/david-dadiani-6677b5226/)
+![Demo](https://github.com/TomC333/Conway-Life-Game/blob/main/Images/gameOfLife.gif)
