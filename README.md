@@ -18,7 +18,7 @@ Eventually, I decided to take it a step further and create my own version. 😄
 
 ## Setup 🌱
 
-To be honest, I hate Java 🙄. I don't know what exactly, but Java looks like an unordered room 🤨 where everything is available, but you have to find them 💭. 
+To be honest, I hate Java 🙄 (Just Kiddingggg 😔). I don't know what exactly, but Java looks like an unordered room 🤨 where everything is available, but you have to find them 💭. 
 So, for the setup section, I'm just giving readers of this README the freedom to figure out how to run this project.
 
 P.S. Or just simply download [IntelliJ IDEA](https://www.jetbrains.com/idea/) from JetBrains—JetBrains is cool 😏.
